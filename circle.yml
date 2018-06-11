@@ -2,12 +2,12 @@
 
 deployment:
   dockerhub:
-    branch: master
-    commands:
-      - $DOCKER_HUB_POCTESTWEB_TRIGGER
     branch: dev
     commands:
-      - $DOCKER_HUB_POCTESTWEB_TRIGGER
+      - $DOCKER_HUB_WEB_DEV_TRIGGER
+    branch: master
+    commands:
+      - $DOCKER_HUB_WEB_MASTER_TRIGGER
 test:
   override:    
     - mocha
