@@ -4,10 +4,10 @@ deployment:
   dockerhub:
     branch: dev
     commands:
-      - $DOCKER_HUB_WEB_DEV_TRIGGER	
+      - $DOCKER_HUB_WEB_TRIGGER	
     branch: master
     commands:
-      - $DOCKER_HUB_WEB_MASTER_TRIGGER
+      - $DOCKER_HUB_WEB_TRIGGER
 
 test:
   override:    
