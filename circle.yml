@@ -5,7 +5,9 @@ deployment:
     branch: master
     commands:
       - $DOCKER_HUB_POCTESTWEB_TRIGGER
-
+    branch: dev
+    commands:
+      - $DOCKER_HUB_POCTESTWEB_TRIGGER
 test:
   override:    
     - mocha
