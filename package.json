@@ -1,8 +1,8 @@
 {
-  "name": "hello-wotc",
+  "name": "hello-colleagues",
   "private": true,
   "version": "0.0.1",
-  "description": "Demo app for JACE WoTC Kubernetes POC",
+  "description": "Demo app for Kubernetes POC",
   "main": "app.js",
   "author": "Balachandran Subramanian <balachandran.subramanian@wizards.com>",
   "license": "Just for testing",
