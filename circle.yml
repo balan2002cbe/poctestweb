@@ -2,6 +2,9 @@
 
 deployment:
   dockerhub:
+    branch: dev
+    commands:
+      - $DOCKER_HUB_POCTESTWEB_TRIGGER
     branch: master
     commands:
       - $DOCKER_HUB_POCTESTWEB_TRIGGER
